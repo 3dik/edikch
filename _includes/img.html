@@ -1,0 +1,12 @@
+<figure class="{{ include.class | default: ""}}">
+	{% if include.large %}
+		<a href="{% asset_path {{include.large}} %}">
+	{% endif %}
+	<img src="{% asset_path {{ include.img }} %}" alt="{{ include.alt }}"/>
+	{% if include.large %}
+		</a>
+	{% endif %}
+	{% if include.caption %}
+		<figcaption>{{ include.caption }}</figcaption>
+	{% endif %}
+</figure>

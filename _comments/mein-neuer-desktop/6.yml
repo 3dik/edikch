@@ -1,0 +1,8 @@
+---
+post_id: /2013/04/16/mein-neuer-desktop
+name: edik
+date: Apr 17, 2013
+comment: |
+  Ach und zum Thema Diebstahl und Vergessen: einen Zweit-PC habe ich zur Zeit weiterhin in Reichweite. Allzu sehr will ich mich auch noch nicht auf das neue System verlassen. :D
+  
+  An eine Verschlüsselung hab ich tatsächlich auch schon gedacht. Das ist bei Smartphones natürlich immer so ne Sache, weil sie in der Regel ja dauerhaft angeschaltet sind, womit der Schlüssel auch dauerhaft im RAM ist. Aber mit Bildschirmsperre und den richtigen ADB-Sicherheitsmaßnahmen kann man da wohl annehmbare Lösungen erhalten. Das Atrix hat auch schon eine integrierte Verschlüsselungsfunktion. Der vertraue ich aber nicht so ganz; die ist sicherlich ähnlich gut durchdacht wie die Webtop-Software. Entweder durchsuche ich den Crypting-Quellcode nach Fehlern, sofern er in dem von Motorola veröffentlichten Atrix-Quellcode-Paket enthalten ist. Oder ich schau mir mal diese <a href="https://github.com/guardianproject/luks/wiki" rel="nofollow">LUKS-Lösung für Android</a> an. Auf jeden Fall gibt es noch viel zu tun. :D

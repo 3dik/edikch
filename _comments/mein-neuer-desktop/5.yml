@@ -1,0 +1,14 @@
+---
+post_id: /2013/04/16/mein-neuer-desktop
+name: edik
+date: Apr 17, 2013
+comment: |
+  Okay, danke für den Hinweis. Ich hab die Sache mit dem Atrix nun etwas expliziter formuliert.
+  
+  Den Akku nehme ich nicht raus. Das Thema hat mir auch ein bisschen Angst gemacht. Jetzt wo du es erwähnt hast, hab ich mich nochmal kurz damit befasst. Und zwar macht so ein dauerhaft an der Dockingstation angeschlossenes Handy nicht das Handy selbst, sondern eher den Akku kaputt. Es gibt mehrere Faktoren, die <a href="http://www.elektronik-kompendium.de/sites/bau/0810281.htm" rel="nofollow">die Lebensdauer dieser Lithium-Ionen-Akkus</a> beeinträchtigen. Dass der Akkuladestand möglichst nicht auf 100% gehalten werden sollte, kann man aber ignorieren, weil dies die <a href="http://www.giga.de/downloads/firmware/news/warum-die-akku-anzeige-von-smartphones-lugt-und-warum-das-gut-ist/" rel="nofollow">intelligenten Ladesysteme inzwischen automatisch verhindern</a>. Und dann bleibt nur noch das Problem der Hitze, die in Kombination mit einem hohen Ladestand die Lebensdauer ebenfalls verringert.  Vielleicht können diese Ladesysteme aber auch hier helfen. Denn scheinbar kann man <a href="http://forum.xda-developers.com/showthread.php?t=1608558" rel="nofollow">sie Softwareseitig beeinflussen</a>. Wenn das möglich ist, könnte man beim Anschluss an die Dockingstation ein Ladelimit von 70% festlegen, was im besonders akkuschonenenden Bereich liegt.
+  
+  Aber das ist alles ziemlich theoretisch. In der Praxis wird mein Akku momentan wohl tatsächlich noch ziemlich missbraucht. Die Laufzeit beträgt zur Zeit etwa einen Tag, wobei das natürlich total vom Nutzerverhalten abhängt. Somit scheint das der Akku bisher ganz gut durchgehalten haben. Doch auch hier könnte mir die Sommerhitze einen Strich durch die Rechnung machen. :D
+  
+  Glücklicherweise kann man den Akku beim Atrix jedoch herausnehmen und somit auch austauschen.
+  
+  @Siegbert: Mein Blog ist ja noch ziemlich neu. Da würde es mich mal interessieren, wie du auf diese Seite gestoßen bist. :D

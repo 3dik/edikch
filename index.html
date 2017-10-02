@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="outer-section">
+	<h1>Posts</h1>
+	<ul class="post-list">
+		{% for post in site.posts %}
+			<li>
+				<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+				<h2>
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</h2>
+				{{ post.excerpt | strip_html }}
+			</li>
+		{% endfor %}
+	</ul>
+</section>

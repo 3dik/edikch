@@ -1,0 +1,8 @@
+---
+post_id: /2012/12/07/wie-ich-zum-bloggen-kam
+name: edik
+date: Dec 17, 2012
+comment: |
+  Ja XML ist schon so eine Sache. Aber wenn am Ende so etwas Hübsches dabei rauskommen kann, kämpfe ich mich gerne durch's Dickicht. Was die Blog-Engine angeht, werde ich wahrscheinlich sowieso mehrere Tools entwickeln, die die WordPress-Datenbank entsprechend konvertieren. Und passende URL-Weiterleitungen sind schnell geschrieben. Die verwendet WordPress übrigens selbst mithilfe von <a href="https://codex.wordpress.org/Using_Permalinks" rel="nofollow">mod_rewrite</a>, um URL's wie <code>...2012/12/Beispielbeitrag/</code> zu basteln. 
+  
+  Aber ich hätte nicht gedacht, dass ich so schnell einen Leser geschweige denn einen Kommentar bekomme. Da kann ich mich bei dir für die zusätzliche Motivationsspritze nur bedanken :D
