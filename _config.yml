@@ -21,6 +21,7 @@ plugins_dir: _plugins
 # Build settings
 markdown: kramdown
 error_mode: strict
+exclude: [README.md]
 
 # The following settings are in a second config file:
 # * email
