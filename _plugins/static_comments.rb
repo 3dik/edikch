@@ -56,10 +56,6 @@ module StaticComments
 			comments[post_id] << yaml_data
 		end
     
-    comments.each_key do |key|
-        comments[key].sort!{|a,b| a['date'] <=> b['date'] }
-    end
-    
     @comments = comments
 	end
 end
