@@ -15,6 +15,12 @@ defaults:
     values:
       layout: "post"
       lang: "en-US"
+      navbar: true
+  -
+    scope:
+      path: "internal"
+    values:
+      navbar: false
 
 plugins_dir: _plugins
 

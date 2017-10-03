@@ -1,3 +1,10 @@
+ErrorDocument 403 /internal/403.html
+ErrorDocument 404 /internal/404.html
+<Files /internal>
+order allow,deny
+deny from all
+</Files>
+
 RewriteCond %{HTTP_HOST} !^edik\.ch$ [NC]
 RewriteRule ^(.*)$ http://edik.ch/$1 [R=301,L]
 
