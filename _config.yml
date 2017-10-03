@@ -7,7 +7,6 @@
 
 # Site settings
 title: edik's Blog
-baseurl: "" # the subpath of your site, e.g. /blog
 
 defaults:
   -
@@ -24,6 +23,6 @@ markdown: kramdown
 error_mode: strict
 exclude: [README.md]
 
-# The following settings are in a second config file:
-# * email
+# The following settings can be set in the private config file:
 # * url
+# * baseurl
