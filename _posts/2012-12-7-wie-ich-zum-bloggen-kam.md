@@ -1,5 +1,6 @@
 ---
 title:  "Wie ich zum Bloggen kam"
+lang: de-DE
 ---
 Vor fast einem Jahr fing ich an, mit dem Gedanken zu spielen, eine Website aufzumachen. Sie sollte zunächst nur eine Referenzseite sein, die ich zum Beispiel bei Bewerbungen hätte vorlegen können, um dicke Pluspunkte bei meinen potentiellen Arbeitgebern zu kassieren. Dank dem mir schon vertrauten WordPress und meinen bereits vorzeigbaren Projekten, die ich auf der Seite dann vorgestellt hätte, wäre das nur eine Sache von ein paar Tagen gewesen.
 <!--more-->

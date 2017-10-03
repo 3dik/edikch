@@ -101,6 +101,9 @@ ul.post-list {
 .post-list p {
 	margin-left: 2rem;
 }
+.post-list h2:lang(de-DE)::before {
+	content: "(German) ";
+}
 #comments h2 {
 	margin: 0;
 }

@@ -1,5 +1,6 @@
 ---
 title:  "Mein neuer Desktop"
+lang: de-DE
 ---
 So um Weihnachten herum gab mein PC langsam den Geist auf. Ich konnte die Sterbeursache nur vage in den Bereich zwischen Mainboard und Netzteil einordnen, weshalb sich die Reparatur über längere Zeit hätte hinziehen können. Von der Kiste hatte ich aber eh die Schnauze voll. Und so entschied ich mich dafür, mir ein neues System anzuschaffen. Dass ich mir zu der Zeit auch mein erstes Smartphone kaufen wollte, hat sich als interessante Gelegenheit herausgestellt.
 

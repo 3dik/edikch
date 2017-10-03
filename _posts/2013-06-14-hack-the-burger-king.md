@@ -1,5 +1,6 @@
 ---
 title:  "Hack the Burger King"
+lang: de-DE
 ---
 
 {% include img.html
