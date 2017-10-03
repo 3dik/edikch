@@ -1,6 +1,8 @@
 ---
 title:  "Hack the Burger King"
 lang: de-DE
+excerpt: |
+  Ich liebe Hackerfilme. Unter anderen mag ich an diesen Hollywoodschinken, dass sie das <a href="http://www.youtube.com/watch?v=RNojBDZeKGA">Hacken so cool aussehen lassen</a>. Nicht dass es das nicht auch in Wahrheit ist. Doch in der Realität versteckt sich die Coolheit eines Hacks meist viel weiter unter der Oberfläche. Zum Verständnis fehlt dem Durchschnittstypen (<a href="http://de.harry-potter.wikia.com/wiki/Muggel">Muggel</a>) dann das Wissen. Man kann ihm das Geile an Buffer Overflows oder Code Injections nicht vermitteln. Aber manchmal findet man etwas Besseres und zeigt ihm etwa wie er noch mehr Burger fressen kann.
 ---
 
 {% include img.html
