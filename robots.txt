@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /contact.html
+Disallow: /internal/403.html
+Disallow: /internal/404.html
