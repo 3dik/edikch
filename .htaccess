@@ -21,3 +21,7 @@ RewriteRule ^$ http://edik.ch/contact.html [R=301,L]
 
 RewriteCond %{query_STRING} ^(cat=1)(.*)$
 RewriteRule ^$ http://edik.ch/index.html [R=301,L]
+
+AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/rss+xml
