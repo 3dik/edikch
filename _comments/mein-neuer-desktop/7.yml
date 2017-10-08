@@ -1,0 +1,14 @@
+---
+post_id: /2013/04/16/mein-neuer-desktop
+name: edik
+date: Oct 08, 2017
+comment: |
+  Dann hau ich hier auch mal ein Update raus: es hat sich inzwischen eine ganze Menge getan. Schon vor so einiger Zeit bin ich wieder zurück auf herkömmliche Desktop-Systeme gewechselt.
+  
+  Das hat vor allem den Grund, dass es auf so einem Atrix-Setup extrem schwer ist, aktuelle Software laufen zu lassen. Die oben beschriebenen Probleme sind bei weitem nur die Spitze des Eisbergs. Beim Kernel selbst gibt es ganz allgemein riesige Baustellen bezüglich Smartphones. Solange die nicht halbwegs gelöst sind, ist der produktive Einsatz solcher Smartphone-Desktops sicherheitstechnisch ziemlich fahrlässig, zumindest für Leute, die auf solchen Dingern verantwortungsvolle Aufgaben übernehmen wollen, Programme schreiben zum Beispiel.
+  
+  Das ist Schade, und es gab noch einen weiteren Dämpfer: <a href="https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/">Canonical hat die Entwicklung von Ubuntu Touch eingestellt</a>. Für mich als brennenden Verfechter des Konvergenz-Konzeptes war das ein schwarzer Tag. Ich glaube, dass diese Entscheidung die Entwicklung von konvergenten Systemen um Jahre zurückgeworfen hat.
+  
+  Dennoch bin ich guter Dinge. Es gibt diverse Projekte, die teils gar nicht das Ziel verfolgen, Smartphone-Desktops zu ermöglichen, aber doch alle den Weg dafür ebnen können. So machen <a href="https://elinux.org/Embedded_linux_status">entsprechende Arbeiten am Kernel</a> Fortschritte, es werden neue Software-Zwischenschichten wie <a href="https://halium.org/">Halium</a> oder <a href="https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html">das Vendor-Interface von Google's Treble</a> eingesetzt, und auch einige Betriebssysteme bewegen sich in diese Richtung. So wird Ubuntu Touch <a href="https://ubports.com/">von der Community weiterentwickelt</a>, Plasma Mobile scheint <a href="https://community.kde.org/Plasma/Convergence_Overview">der Konvergenz-Idee auch nicht ganz abgeneigt zu sein</a> und BOAH sogar Microsoft ist <a href="https://www.heise.de/ct/ausgabe/2016-3-Microsoft-Continuum-und-Display-Dock-sollen-das-Smartphone-zum-PC-machen-3075627.html">zwischenzeitlich auf den Zug aufgesprungen</a>. Also kann man gespannt bleiben.
+  
+  Es scheint mir, als werde es immer schwieriger, in dieser Thematik den Überblick zu behalten. Darum erwäge ich, hierfür eine öffentliche Info- und Linksammlung darüber aufzubauen. Sollte es dazu kommen, gibt's hier ein erneutes Update.
