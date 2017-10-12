@@ -25,3 +25,6 @@ RewriteRule ^$ http://edik.ch/index.html [R=301,L]
 AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css
 AddOutputFilterByType DEFLATE application/xml
 AddOutputFilterByType DEFLATE application/rss+xml
+
+AddDefaultCharset utf-8
+AddCharset utf-8 html css xml txt
