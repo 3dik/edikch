@@ -28,3 +28,11 @@ AddOutputFilterByType DEFLATE application/rss+xml
 
 AddDefaultCharset utf-8
 AddCharset utf-8 html css xml txt
+
+ExpiresActive on
+ExpiresDefault A3600
+ExpiresByType text/html A60
+ExpiresByType text/plain A60
+ExpiresByType text/xml A60
+ExpiresByType application/xml A60
+ExpiresByType application/rss+xml A60
