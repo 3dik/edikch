@@ -1,26 +1,27 @@
 ErrorDocument 403 /internal/403.html
 ErrorDocument 404 /internal/404.html
 
+RewriteBase "/"
+
 RewriteCond %{HTTP_HOST} !^edik\.ch$ [NC]
-RewriteRule ^(.*)$ http://edik.ch/$1 [R=301,L]
+RewriteRule ^(.*)$ %{REQUEST_SCHEME}://edik.ch/$1 [R=301,L]
 
+# Redirect old Wordpress URLs
 RewriteCond %{query_STRING} ^(p=15)(.*)$
-RewriteRule ^$ http://edik.ch/2012/12/07/wie-ich-zum-bloggen-kam.html [R=301,L]
-
+RewriteRule ^$ /2012/12/07/wie-ich-zum-bloggen-kam.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(p=304)(.*)$
-RewriteRule ^$ http://edik.ch/2013/04/16/mein-neuer-desktop.html [R=301,L]
-
+RewriteRule ^$ /2013/04/16/mein-neuer-desktop.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(p=359)(.*)$
-RewriteRule ^$ http://edik.ch/2013/06/14/hack-the-burger-king.html [R=301,L]
-
+RewriteRule ^$ /2013/06/14/hack-the-burger-king.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(page_id=169)(.*)$
-RewriteRule ^$ http://edik.ch/about.html [R=301,L]
-
+RewriteRule ^$ /about.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(page_id=9)(.*)$
-RewriteRule ^$ http://edik.ch/contact.html [R=301,L]
-
-RewriteCond %{query_STRING} ^(cat=1)(.*)$
-RewriteRule ^$ http://edik.ch/index.html [R=301,L]
+RewriteRule ^$ /contact.html [R=301,QSD,L]
+# Any other old URLs linked to stuff like tags, categories etc.
+# Since the new site structures are much simpler, a redirect to / is okay.
+# Nice side effect: the site does not allow query strings at all anymore
+RewriteCond %{query_STRING} !^$
+RewriteRule ^(.*)$ $1 [R=301,QSD,L]
 
 AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css
 AddOutputFilterByType DEFLATE application/xml
