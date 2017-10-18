@@ -8,11 +8,11 @@ RewriteRule ^(.*)$ %{REQUEST_SCHEME}://edik.ch/$1 [R=301,L]
 
 # Redirect old Wordpress URLs
 RewriteCond %{query_STRING} ^(p=15)(.*)$
-RewriteRule ^$ /2012/12/07/wie-ich-zum-bloggen-kam.html [R=301,QSD,L]
+RewriteRule ^$ /posts/wie-ich-zum-bloggen-kam.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(p=304)(.*)$
-RewriteRule ^$ /2013/04/16/mein-neuer-desktop.html [R=301,QSD,L]
+RewriteRule ^$ /posts/mein-neuer-desktop.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(p=359)(.*)$
-RewriteRule ^$ /2013/06/14/hack-the-burger-king.html [R=301,QSD,L]
+RewriteRule ^$ /posts/hack-the-burger-king.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(page_id=169)(.*)$
 RewriteRule ^$ /about.html [R=301,QSD,L]
 RewriteCond %{query_STRING} ^(page_id=9)(.*)$
@@ -22,6 +22,12 @@ RewriteRule ^$ /contact.html [R=301,QSD,L]
 # Nice side effect: the site does not allow query strings at all anymore
 RewriteCond %{query_STRING} !^$
 RewriteRule ^(.*)$ $1 [R=301,QSD,L]
+
+# Redirect from classic post URLs to the simplified dateless URLs. In the
+# first weeks after the migration to Jekyll the classic format was active..
+Redirect permanent /2012/12/07 /posts
+Redirect permanent /2013/04/16 /posts
+Redirect permanent /2013/06/14 /posts
 
 RewriteRule ^index\.html$ / [R=301,L]
 
