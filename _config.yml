@@ -13,9 +13,14 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "post"
+      layout: "page"
       lang: "en-US"
       navbar: true
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
   -
     scope:
       path: "internal"

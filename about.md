@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About
 ---
 Personal Blog, maybe some notes whatever
