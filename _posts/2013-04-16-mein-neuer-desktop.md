@@ -18,7 +18,7 @@ Doch genau dieses Gerät hab ich mir dann geschnappt! Und tatsächlich hat es ni
 <h2>Sich den Desktop erhacken</h2>
 
 {% include img.html
-	img="atrix-default-desktop-small.png"
+	img="atrix-default-desktop-small.jpg"
 	large="atrix-default-desktop.png"
 	alt="Ein Screenshot, auf dem ein Browser und ein Fenster mit einer Android-Oberfläche zu sehen sind"
 	caption="Das unmodifizierte Standard-Webtop"
@@ -31,7 +31,7 @@ Weil andere <a href="http://cpuchip.net/?p=39"> aus dem Knast bereits ausgebroch
 Doch noch ist der Plan nicht gescheitert. Die XDA-Community hat es schon geschafft, <a href="http://forum.xda-developers.com/showthread.php?t=1617684">andere Linux-Distributionen</a> zum Laufen zu bringen. Und ich habe auch schon überlegt mir Assemblerkenntnisse anzueignen und mithilfe des teilweise veröffentlichten <a href="http://sourceforge.net/motorola/atrix/home/Home/">Motorola-Quellcodes</a> das gesamte Webtop auseinander zu nehmen und durch eigene Open Source-Software offenzulegen. Ich dachte sogar daran, Schnittstellen für die Kommunikation zwischen Desktop- und Android-Software zu entwickeln. Man stelle sich mal zwei <a href="http://de.wikipedia.org/wiki/Pidgin_%28Instant_Messenger%29">libpurple</a>-Programme vor, jeweils eine für den Desktop- und den Android-Modus. Beide greifen auf dieselbe Bibliothek zurück und ein fließender Übergang zwischen beiden Modi ist problemlos möglich.
 
 {% include img.html
-	img="atrix-desktop-ion3-small.png"
+	img="atrix-desktop-ion3-small.jpg"
 	large="atrix-desktop-ion3.png"
 	alt="Screenshots eines Desktops mit Tiling-Fenstermanager"
 	caption="Mein ausgebauter Webtop-Ubuntu-Desktop mit ion3-Fenstermanager"
