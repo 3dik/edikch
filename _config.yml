@@ -16,6 +16,7 @@ defaults:
       layout: "page"
       lang: "en-US"
       navbar: true
+      do_index: true
   -
     scope:
       path: "_posts"
@@ -27,6 +28,7 @@ defaults:
       path: "internal"
     values:
       navbar: false
+      do_index: false
 
 plugins_dir: _plugins
 
