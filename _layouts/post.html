@@ -1,13 +1,7 @@
 ---
-layout: default
+layout: content
+blogpost: true
+comments_activated: true
 ---
-<article class="post" lang="{{ page.lang }}" itemscope itemtype="http://schema.org/BlogPosting">
-	<section class="outer-section">
-		<header class="post-header">
-			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-			<h1 itemprop="name headline">{{ page.title }}</h1>
-		</header>
-		{{ content }}
-	</section>
-	{% include comments.html %}
-</article>
+
+{{content}}
