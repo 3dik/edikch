@@ -2,9 +2,13 @@
 	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 </header>
 <nav>
+	<ul>
 	{% for my_page in site.pages %}
 		{% if my_page.title and my_page.navbar %}
-			<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+			<li>
+				<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+			</li>
 		{% endif %}
 	{% endfor %}
+	</ul>
 </nav>
