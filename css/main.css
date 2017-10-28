@@ -131,7 +131,7 @@ main {
 
 @supports (display: grid) {
 	/* nav links on the right */
-	@media ( min-width: 43rem ) {
+	@media screen and ( min-width: 43rem ) {
 		body {
 			display: grid;
 			grid-template-rows: auto auto;
@@ -164,7 +164,7 @@ main {
 	}
 
 	/* title on the left */
-	@media ( min-width: 58rem ) {
+	@media screen and ( min-width: 58rem ) {
 		body {
 			grid-template-rows: auto;
 			grid-template-columns: min-content minmax(min-content,35rem) min-content;
@@ -180,5 +180,24 @@ main {
 			grid-row: 1;
 			grid-column: 2;
 		}
+	}
+}
+
+@media print {
+	#site-title, nav, #comment-form {
+		display: none;
+	}
+	main {
+		max-width: none;
+	}
+	pre code, table, figure, #comments .comment-content {
+		box-shadow: none;
+		border-style: solid;
+		border-width: 0.1rem;
+		border-color: black;
+	}
+	a {
+		font-style: italic;
+		text-decoration: underline;
 	}
 }
