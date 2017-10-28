@@ -8,10 +8,10 @@ body {
 	color: #777;
 	white-space: nowrap;
 	display: block;
+	text-decoration: none;
 }
 #site-title a:hover, nav a:hover {
 	color: white;
-	text-decoration: none;
 }
 nav li {
 	list-style-type: none;
@@ -33,13 +33,11 @@ main {
 	margin: 0.4rem;
 	margin-bottom: 1rem;
 }
-a {
+main a {
 	color: rgb( 60, 162, 162 );
-	text-decoration: none;
 }
-a:hover {
+main a:hover {
 	color: #2a6496;
-	text-decoration: underline;
 }
 #site-title, nav {
 	margin-left: 1rem;
@@ -198,6 +196,5 @@ main {
 	}
 	a {
 		font-style: italic;
-		text-decoration: underline;
 	}
 }
